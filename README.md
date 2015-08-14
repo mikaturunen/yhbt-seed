@@ -13,6 +13,18 @@ Then, go ahead and download the element's dependencies:
 
     bower install
 
+To build the Typescript and Jade files just simply call 
+
+    gulp
+
+Used technologies
+
+* gulp
+* TypeScript
+* Jade
+* Polymer
+
+# Note tested parts originating from poly-seed
 
 ## Playing With Your Element
 
