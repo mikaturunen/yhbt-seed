@@ -1,0 +1,35 @@
+link(rel="import" href="../polymer/polymer.html")
+
+// 
+  An element providing a solution to no problem in particular.
+
+  Example:
+      <seed-element></seed-element>
+
+  @demo
+
+
+dom-module(id="seed-element")
+  style
+    :host {
+      display: block;
+      box-sizing: border-box;
+    }
+
+    .author img {
+      float: left;
+      margin-right: 5px;
+      max-height: 100px;
+      max-width: 100px;
+    }
+
+  template
+    h1 &lt;seed-element&gt; 
+    content
+    p.author
+      img(src="{{author.image}}")
+      Cheers,<br/>
+      span.name {{author.name}}
+
+script(src="./seed-element.ts")
+  
