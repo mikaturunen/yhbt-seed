@@ -1,3 +1,5 @@
+"use strict";
+
 Polymer({
 
   is: 'seed-element',
@@ -30,7 +32,7 @@ Polymer({
       // prototype).
       value: function() {
         return {
-          name:  'Dimitri Glazkov',
+          name:  'Mika Turunen',
           image: 'http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg',
         };
       }
@@ -79,7 +81,7 @@ Polymer({
    * @param {string} greeting A positive greeting.
    * @return {string} The full greeting.
    */
-  sayHello: function(greeting) {
+  sayHello: function(greeting: string) {
     var response = greeting || 'Hello World!';
     return 'seed-element says, ' + response;
   },

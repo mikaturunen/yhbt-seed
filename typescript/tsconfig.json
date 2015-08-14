@@ -1,20 +1,46 @@
 {
     "version": "1.5.0-alpha",
     "compilerOptions": {
-        "target": "es5",
+        "target": "es6",
         "module": "commonjs",
-        "declaration": false,
-        "noImplicitAny": false,
+        "declaration": true,
+        "noImplicitAny": true,
         "removeComments": true,
         "noLib": false,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true
     },
+    "compileOnSave": false,
     "filesGlob": [
         "./**/*.ts",
-        "!./node_modules/**/*.ts"
+        "../node_modules/yhbt-definitions/typedefinitions/**/*.d.ts",
+        "!./../node_modules/**/*.ts",
+        "!./../release/**/*.ts"
     ],
     "files": [
-        "./seed-element.ts"
+        "./seed-element.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/bcrypt/bcrypt.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/bluebird/bluebird.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/body-parser/body-parser.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/client.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/cookie-parser/cookie-parser.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/express-session/express-session.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/express/express.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/hapi/hapi.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/merge-interfaces.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/models.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/mongodb/mongodb.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/node/node.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/passport-local/passport-local.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/passport/passport.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/polymer/polymer.app-router.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/polymer/polymer.core-drawer-panel.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/polymer/polymer.core-overlay.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/polymer/polymer.core-selector.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/polymer/polymer.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/polymer/polymer.paper-dialog.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/polymer/polymer.paper-toast.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/q/Q.d.ts",
+        "../node_modules/yhbt-definitions/typedefinitions/server.d.ts"
     ]
 }

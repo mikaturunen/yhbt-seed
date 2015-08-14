@@ -1,3 +1,4 @@
+"use strict";
 Polymer({
     is: 'seed-element',
     properties: {
@@ -7,10 +8,10 @@ Polymer({
             value: function () {
                 return {
                     name: 'Mika Turunen',
-                    image: 'http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg',
+                    image: 'http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg'
                 };
             }
-        },
+        }
     },
     ready: function () {
     },
